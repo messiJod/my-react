@@ -1,0 +1,22 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, Poppins;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(107, 182, 38, 0.8);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(8, 85, 1);
+}

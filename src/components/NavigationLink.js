@@ -1,11 +1,12 @@
 import React from "react";
 
-const NavigationLink = ({ href, text }) => {
+const NavigationLink = ({ href, icon, text }) => {
   return (
     <a
       href={href}
-      className="inline-block hover:bg-lime-600 text-white px-4 py-1 rounded-md transition-all"
+      className=" flex flex-wrap gap-1 hover:bg-lime-600 text-white sm:px-4 sm:py-2 rounded-md transition-all"
     >
+      {icon}
       {text}
     </a>
   );
