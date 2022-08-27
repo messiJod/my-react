@@ -1,5 +1,3 @@
-import React from "react";
-
 const Section = ({ heading, id }) => {
   return (
     <div className="text-center min-h-screen">

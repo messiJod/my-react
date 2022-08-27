@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavigationLink = ({ href, icon, text }) => {
   return (
     <a

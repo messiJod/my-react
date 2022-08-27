@@ -1,4 +1,3 @@
-import React from "react";
 import NavigationLink from "./NavigationLink";
 
 export const Header = () => {
